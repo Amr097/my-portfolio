@@ -1,0 +1,51 @@
+section#intro {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-left: 10rem;
+}
+
+#intro p {
+  color: white;
+  font-size: 1.5rem;
+  opacity: 0;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  position: relative;
+  top: -50px;
+}
+
+#intro p.visible {
+  opacity: 1;
+  top: 0;
+}
+
+#intro p span {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #FAC86B;
+  font-family: 'Source Serif Pro', serif;
+}
+
+#intro a {
+  text-decoration: none;
+  border: 3px solid #FAC86B;
+  line-height: 4;
+  padding: 5px 8px;
+  color: #FAC86B;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-family: 'Source Serif Pro', serif;
+  opacity: 0;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  position: relative;
+  bottom: -50px;
+}
+
+#intro a.visible {
+  opacity: 1;
+  bottom: 0;
+}
+/*# sourceMappingURL=intro.css.map */

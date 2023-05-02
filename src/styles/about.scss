@@ -1,0 +1,38 @@
+.center{
+    background-color: #31333B;
+    box-shadow: inset 0 4px 4px rgba(0,0,0,.1);
+    margin-top: 50px;
+}
+
+section#about{
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-top: 3%;
+    max-width: 80vw;
+    height: 100vh;
+}
+
+#about article{
+    color: white;
+    height: 100%;
+}
+
+#about article h2{
+    margin-bottom: 3vh;
+}
+
+#about article p{
+    line-height: 1.8;
+    font-size: max(1.5vw, 19px);
+}
+
+#about article p::before{
+ content: '';
+ display: block;
+ width: 3vw;
+ height: 0.2vh;
+ background-color:#FAC86B;
+ margin-left: -6vw;
+ position: relative;
+ top: min(25px, 3vh);
+}

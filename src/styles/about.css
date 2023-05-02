@@ -1,0 +1,34 @@
+.center {
+  background-color: #31333B;
+  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+section#about {
+  margin: 0 auto;
+  padding-left: 10rem;
+  padding-top: 3rem;
+  max-width: 80vw;
+}
+
+#about article {
+  color: white;
+}
+
+#about article p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+#about article p::before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #FAC86B;
+  margin-left: -60px;
+  position: relative;
+  top: 19px;
+}
+/*# sourceMappingURL=about.css.map */

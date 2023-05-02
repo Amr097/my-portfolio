@@ -1,0 +1,64 @@
+.logo{
+  flex: 0 1 1;
+  position: relative;
+  border-top: max(30px,3vh) solid #FAC86B;
+  border-right: 5px solid #FAC86B;
+  border-left: 5px solid #FAC86B;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 4vh 0 0 3vw;
+}
+
+
+
+header{
+    flex: 1;
+    display: flex;
+    margin: 0 auto;
+    padding: 1vh 15px;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #34353A;
+    z-index: 10;
+}
+
+header nav{
+    flex: 1 1 0;
+    text-align: center;  
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, .6);
+    padding: 10px;
+    margin-top: 4vh;
+}
+
+header nav a:hover{
+   color: white;
+}
+
+div.social{
+    flex: 0 1 1;
+    padding-right: 4vw;
+    display: flex;
+    gap: 1.8vw;
+    justify-content: flex-end;
+}
+
+div.social a svg{
+  height: 3vh;
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.social a svg#linkedin:hover{
+    fill: rgb(255, 255, 255);
+}
+
+.social a svg#github:hover{
+    fill: rgb(255, 255, 255);
+}
