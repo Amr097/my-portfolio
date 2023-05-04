@@ -8,7 +8,7 @@ section#about{
     margin: 0 auto;
     padding-left: 5%;
     padding-top: 10%;
-    max-width: 80vw;
+    max-width: 85vw;
     height: 100vh;
 }
 
@@ -23,8 +23,17 @@ section#about{
 
 #about article p{
     line-height: 1.8;
-    font-size: max(1.2vw, 19px);
+    font-size: max(1.2vw, 14px);
     width: max(60%, 300px);
+    opacity: 0;
+    transition: all .3s linear;
+    position: relative;
+    top: -50px;
+}
+
+#about article p.visible{
+    opacity: 1;
+    top: 0;
 }
 
 #about article p::before{
@@ -36,4 +45,29 @@ section#about{
  margin-left: -4vw;
  position: relative;
  top: min(25px, 2.5vh);
+}
+
+#about article a{
+    text-decoration: none;
+    border: 3px solid #FAC86B;
+    line-height: 4;
+    padding: 5px 8px;
+    color: #FAC86B;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family: 'Source Serif Pro', serif;
+    opacity: 0;
+    transition: all .3s linear;
+    position: relative;
+    bottom: -50px;
+}
+
+#about article a:hover{
+    box-shadow: inset 150px 0 0 0 #FAC86B;
+    color: #34353A;
+}
+
+#about article a.visible{
+  opacity: 1;
+  bottom: 0;
 }

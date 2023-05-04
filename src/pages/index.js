@@ -18,8 +18,10 @@ export default function Home() {
      });
    });
    observer.observe(document.querySelector('div.skills-container'));
-   observer.observe(document.querySelector('article a, article p'));
- 
+   observer.observe(document.querySelector('#intro p'));
+   observer.observe(document.querySelector('#intro a'));
+   observer.observe(document.querySelector('#about a'));
+   observer.observe(document.querySelector('#about p'));
   }, [])
   return (
    <main>
