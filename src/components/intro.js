@@ -8,8 +8,10 @@ export default function Intro(){
     return(
     <section id="intro">
      <article>
-      <p className={classes}>I'M <span>Amr Abdelghany</span><br/>Web Developer, code enthuthiast and i have a cool helmet</p>
-      <a className={classes}>Contact Me</a>
+      <p className={classes}>I'M <span>Amr Abdelghany</span><br/>Software developer with a passion for web development.
+      <br/> I enjoy solving problems and I'm always seeking improvement in the work I do.<br/> 
+      Nevertheless, I have a curious mind which often leads me to want to learn more about how tools work under the hood.</p>
+      <a target='_blank' href="https://mail.google.com/mail/u/0/?fs=1&to=amruser97@gmail.com&su=SUBJECT&body=BODY&tf=cm" className={classes}>Contact Me</a>
      </article>
     </section>
     )

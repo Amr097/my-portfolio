@@ -7,7 +7,7 @@
 section#about{
     margin: 0 auto;
     padding-left: 5%;
-    padding-top: 3%;
+    padding-top: 10%;
     max-width: 80vw;
     height: 100vh;
 }
@@ -23,16 +23,17 @@ section#about{
 
 #about article p{
     line-height: 1.8;
-    font-size: max(1.5vw, 19px);
+    font-size: max(1.2vw, 19px);
+    width: max(60%, 300px);
 }
 
 #about article p::before{
  content: '';
  display: block;
  width: 3vw;
- height: 0.2vh;
+ height: 0.3vh;
  background-color:#FAC86B;
- margin-left: -6vw;
+ margin-left: -4vw;
  position: relative;
- top: min(25px, 3vh);
+ top: min(25px, 2.5vh);
 }

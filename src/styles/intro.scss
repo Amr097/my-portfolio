@@ -7,6 +7,12 @@ section#intro{
     padding-left: 5%
 }
 
+#intro article{
+    width: 60vw;
+    line-height: 1.5;
+}
+
+
 #intro p{
     color: white;
     font-size: max(1.7vw, 18px);
@@ -42,6 +48,11 @@ section#intro{
     transition: all .3s linear;
     position: relative;
     bottom: -50px;
+}
+
+#intro a:hover{
+    box-shadow: inset 150px 0 0 0 #FAC86B;
+    color: #34353A;
 }
 
 #intro a.visible{
