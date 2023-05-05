@@ -3,13 +3,14 @@ section#intro{
     max-width: 80vw;  
     height: 100vh; 
     margin: 0 auto;
-    padding-top: max(15%, 150px);
+    padding-top: 15%;
     padding-left: 5%
 }
 
 #intro article{
-    width: 60vw;
+    max-width: 60vw;
     line-height: 1.5;
+    height: auto;
 }
 
 
