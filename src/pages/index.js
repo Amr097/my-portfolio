@@ -4,6 +4,7 @@ import Header from 'src/components/header'
 import About from 'src/components/about'
 import Skills from 'src/components/skills'
 import Portfolio from 'src/components/portfolio'
+import Contact from 'src/components/contact'
 import { useEffect } from 'react'
 
 
@@ -30,6 +31,7 @@ export default function Home() {
     <About/>
     <Skills />
     <Portfolio />
+    <Contact /> 
    </main>
   )
 }

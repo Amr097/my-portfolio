@@ -15,10 +15,14 @@ section#portfolio{
    padding-bottom: 3vh;
    align-items: center;
    justify-content: center;
+   
 
    .effect{    
+    font-weight: bold;
    position: absolute;
    display: flex;
+   flex-direction: column;
+   gap: 15px;
    width: max(17vw,150px);
    height: max(15vw, 120px);
    background-color: transparent;
@@ -38,6 +42,7 @@ section#portfolio{
 }
 
  a{
+    text-decoration: none;
     position: relative;
     height: 5vh;
     padding: 0.5vw 1vw;

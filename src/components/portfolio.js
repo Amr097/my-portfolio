@@ -9,40 +9,44 @@ export default function Portfolio(){
       <figure className="portfolio-card">
 
        <div className="effect">
-        <a>Github</a>
+       <p>Blogging platform built with <br/> ReactJS and ExpressJs</p> 
+        <a target="_blank" href="https://github.com/Amr097/404-owl-blog">Github</a>
        </div>
 
-       <img src="/images/istockphoto-1365847213-612x612.jpg" alt=""/>
+       <img src="/images/OWL.png" alt=""/>
 
       </figure>
       
       <figure className="portfolio-card">
       
        <div className="effect">
-        <a>Github</a> 
+       <p>Share your secrets app built with EJS and ExpressJs</p> 
+        <a target="_blank" href="https://github.com/Amr097/secrets">Github</a> 
        </div>
 
-       <img src="/images/istockphoto-1365847213-612x612.jpg" alt=""/>
+       <img src="/images/SECRETS.png" alt=""/>
 
       </figure>
 
       <figure className="portfolio-card">
      
-       <div className="effect"> 
-        <a>Github</a>
+       <div className="effect">
+       <p>Re-useable API built with <br/> ExpressJs to handle CURD operations</p> 
+        <a target="_blank" href="https://github.com/Amr097/Wiki-API">Github</a>
        </div>
 
-       <img src="/images/istockphoto-1365847213-612x612.jpg" alt=""/>
+       <img src="/images/WIKI.png" alt=""/>
 
       </figure>
 
       <figure className="portfolio-card">
       
        <div className="effect">
-         <a>Github</a>
+       <p>TO-DO-LIST App built with <br/> ReactJs</p> 
+         <a target="_blank" href="https://github.com/Amr097/note-keeper">Github</a>
        </div>
 
-       <img src="/images/istockphoto-1365847213-612x612.jpg" alt=""/>
+       <img src="/images/TODO.png" alt=""/>
 
       </figure>
      </div>

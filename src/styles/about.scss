@@ -23,6 +23,7 @@ section#about{
 
 #about article p{
     line-height: 1.8;
+    padding-bottom: 10px;
     font-size: max(1.2vw, 14px);
     width: max(60%, 300px);
     opacity: 0;
@@ -63,7 +64,7 @@ section#about{
 }
 
 #about article a:hover{
-    box-shadow: inset 150px 0 0 0 #FAC86B;
+    box-shadow: inset 200px 0 0 0 #FAC86B;
     color: #34353A;
 }
 
