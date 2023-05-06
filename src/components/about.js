@@ -15,7 +15,7 @@ export default function About(){
           and English literature.<br/><br/>
           One of my ambitions is to become the best programmer I can humanly be.<br/>
           Although I find everything about programming interesting, web development is my passion and I love working in all of its areas : Front-End, Back-End, Databases and even Security.
-          <br/><br/>My experience mostly spans the MERN Stack : JavaScript, ReactJS, Node.js, MongoDB and Webpack. I'm also familiar with SQL and C++. </p>
+          <br/><br/>My experience mostly spans the MERN Stack. I'm also familiar with SQL and C++. </p>
           <a className={classes} target='_blank' href="https://drive.google.com/uc?export=download&id=1MbBGrtGftJeYxdII67wj43idfOT1mNdi" download>Download CV</a>
         </article>
       </section>
