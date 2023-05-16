@@ -1,72 +1,67 @@
-
-.logo{
+.logo {
   position: relative;
-  border-top: max(30px,3vh) solid #FAC86B;
-  border-right: 5px solid #FAC86B;
-  border-left: 5px solid #FAC86B;
+  border-top: max(30px, 3vh) solid #fac86b;
+  border-right: 5px solid #fac86b;
+  border-left: 5px solid #fac86b;
   border-radius: 50%;
   width: 75px;
   height: 75px;
   margin: 0;
 }
 
-
-
-header{
-    padding-top: 2vw;
-    height: 15vh;
-    width: 100vw;
-    align-items: center;
-    position: fixed;
-    background-color: transparent;
-    z-index: 10;
+header {
+  padding-top: 2vw;
+  height: 15vh;
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  background-color: transparent;
+  z-index: 1;
 }
-ul{
-    list-style: none;
-    display: flex;
-    text-align: center;
-    gap: 1.5vw;
-    padding-top: 0.7vw;
+ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 1.5vw;
+  padding-top: 0.7vw;
 }
 
-header nav{
-    padding: 0 8vw 0 8vw;
-    display: flex;
-    text-align: center;  
-    justify-content: space-between;
+header nav {
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
-header nav a{
-    text-decoration: none;
-    color: rgb(255, 255, 255, .6);
-  
+header nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.6);
 }
 
-header nav a:hover{
-   color: white;
+header nav a:hover {
+  color: white;
 }
 
-.social{
-    display: flex;
-    gap: 1.5vw; 
-    padding-top: 0.7vw;
+.social {
+  display: flex;
+  gap: 1.5vw;
+  padding-top: 0.7vw;
 }
 
-div.social a svg{
-   
+div.social a svg {
   height: 3vh;
   fill: rgba(255, 255, 255, 0.6);
 }
 
-.social a svg#linkedin:hover{
-    fill: rgb(255, 255, 255);
+.social a svg#linkedin:hover {
+  fill: rgb(255, 255, 255);
 }
 
-.social a svg#github:hover{
-    fill: rgb(255, 255, 255);
+.social a svg#github:hover {
+  fill: rgb(255, 255, 255);
 }
 
-.toggle-button{
+.toggle-button {
   position: absolute;
   top: 15px;
   right: 30px;
@@ -77,73 +72,73 @@ div.social a svg{
   height: 21px;
 }
 
-.toggle-button .bar{
-    background-color:rgba(255, 255, 255, 0.6);
-    border-radius: 20px;
-    height: 3px;
-    width: 100%;
+.toggle-button .bar {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  height: 3px;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
-    .toggle-button{
-        display: flex;
-        cursor: pointer;
-    }
+  .toggle-button {
+    display: flex;
+    cursor: pointer;
+  }
 
-    .social, .logo{
-        display: none;
-    }
+  .social,
+  .logo {
+    display: none;
+  }
 
-header nav{
+  header nav {
     flex-direction: column;
     justify-content: space-between;
     padding: 0;
-}
-ul{
+  }
+  ul {
     flex-direction: column;
     align-self: flex-end;
     gap: 8px;
     position: relative;
-    top:35px;
+    top: 35px;
     background-color: transparent;
     right: 20px;
     opacity: 0;
     pointer-events: none;
     transform: translateY(-10px);
-}
-// .social{
-//     position: relative;
-//     top: -28px;
-//     right: 25px;
-//     align-self: flex-end;
-//     gap: 6px;
-//     background-color: #34353A;
-//     display: none;
-// }
-.logo{
+  }
+  // .social{
+  //     position: relative;
+  //     top: -28px;
+  //     right: 25px;
+  //     align-self: flex-end;
+  //     gap: 6px;
+  //     background-color: #34353A;
+  //     display: none;
+  // }
+  .logo {
     right: -15px;
-}
+  }
 
-div.social a svg{
-   
+  div.social a svg {
     height: 2.3vh;
     fill: rgba(255, 255, 255, 0.6);
   }
 
-ul.active{
+  ul.active {
     opacity: 1;
-    transition: all .4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
     padding: 15px;
     pointer-events: all;
     transform: translateY(0);
-}
+  }
 
-.navbar-links li a:hover {
+  .navbar-links li a:hover {
     color: white;
-}
+  }
 
-.social.active{
+  .social.active {
     display: none;
-}
+  }
 }
