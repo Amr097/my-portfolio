@@ -30,7 +30,7 @@ export default function About() {
           <a
             className={classes}
             target="_blank"
-            href="https://drive.google.com/uc?export=download&id=1vZ4MBpgNFDP5T3ASfkUy4ttR3V0J1AbT"
+            href="https://drive.google.com/uc?export=download&id=1XSASgmKokF3SbY1i1ZGxoiR-cWaAA719"
             download
           >
             Download CV
