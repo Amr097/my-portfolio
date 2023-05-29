@@ -7,8 +7,6 @@ import Portfolio from "src/components/portfolio";
 import Contact from "src/components/contact";
 import { useEffect } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries, opts) => {
