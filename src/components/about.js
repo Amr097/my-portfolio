@@ -11,9 +11,11 @@ export default function About() {
         <article>
           <h2>About</h2>
           <p className={classes}>
-            I am a Web Developer Located In Egypt. Well organized person,
-            problem-solver with high attention to detail. Family person who
-            loves animals and English literature.
+            I am a Web Developer Located In Egypt. May describe myself as an
+            organized person, highly enthusiastic about problem-solving with
+            high attention to detail, Also a Family person who loves animals
+            -especially birds-, reading and point and click adventure/puzzle
+            games.
             <br />
             <br />
             One of my ambitions is to become the best programmer I can humanly
@@ -21,16 +23,13 @@ export default function About() {
             <br />
             Although I find everything about programming interesting, web
             development is my passion and I love working in all of its areas :
-            Front-End, Back-End, Databases and even Security.
-            <br />
-            <br />
-            My experience mostly spans the MERN Stack. I'm also familiar with
-            SQL and Python{" "}
+            Front-End, Back-End, Databases and even Security, My experience
+            mostly spans the Javascript-ecosystem.
           </p>
           <a
             className={classes}
             target="_blank"
-            href="https://drive.google.com/uc?export=download&id=1vZ4MBpgNFDP5T3ASfkUy4ttR3V0J1AbT"
+            href="https://drive.google.com/uc?export=download&id=1xqzebIRnUWd5ggvLLvohjqz9wJeCYWru"
             download
           >
             Download CV

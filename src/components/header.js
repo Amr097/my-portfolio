@@ -27,7 +27,7 @@ export default function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Projects</a>
           </li>
         </ul>
 
