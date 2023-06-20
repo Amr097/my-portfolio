@@ -32,12 +32,7 @@ export default function About() {
             entire stack. <br /> <br /> Hobbies beside programming: Reading,
             Sports and Low combat narrative/puzzle heavy Games.
           </p>
-          <a
-            className={classes}
-            target="_blank"
-            href="https://drive.google.com/uc?export=download&id=1xqzebIRnUWd5ggvLLvohjqz9wJeCYWru"
-            download
-          >
+          <a className={classes} target="_blank" href="" download>
             Download CV
           </a>
         </article>
